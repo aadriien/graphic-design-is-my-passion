@@ -6,22 +6,6 @@ body {
     animation: spinBackground 10s linear infinite alternate;
 }
 
-@keyframes spinBackground {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-}
-
-@keyframes spinText {
-    0% { transform: rotate(0deg); }
-    50% { transform: rotate(720deg); }
-    100% { transform: rotate(0deg); }
-}
-
-.spin-animation {
-    display: inline-block;
-    animation: spinText 1s ease-in-out;
-}
-
 h1, h2, h3 {
     font-size: 400% !important;
     transform: rotate(-3deg);
@@ -33,3 +17,20 @@ img {
     filter: drop-shadow(0 0 10px hotpink) contrast(200%) saturate(200%) !important;
     border: 5px ridge gold !important;
 }
+
+.spin-animation {
+    display: inline-block;
+    animation: spinText 1s ease-in-out;
+}
+
+@keyframes spinBackground {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+@keyframes spinText {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(720deg); }
+    100% { transform: rotate(0deg); }
+}
+
