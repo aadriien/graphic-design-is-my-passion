@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(45deg, lime, magenta, cyan) !important;
+    font-family: "Comic Sans MS", "Papyrus", cursive !important;
+    color: #ff00ff !important;
+    text-shadow: 3px 3px 6px yellow !important;
+    animation: spinBackground 10s linear infinite alternate;
+}
+
+@keyframes spinBackground {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+h1, h2, h3 {
+    font-size: 400% !important;
+    transform: rotate(-3deg);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+img {
+    filter: drop-shadow(0 0 10px hotpink) contrast(200%) saturate(200%) !important;
+    border: 5px ridge gold !important;
+}
