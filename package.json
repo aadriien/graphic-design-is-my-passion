@@ -1,0 +1,11 @@
+{
+    "name": "graphic-design-is-my-passion",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^5.7.0"
+    }
+}

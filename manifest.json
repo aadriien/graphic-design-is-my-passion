@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Graphic Design is My Passion (Browser Extension)",
+    "version": "1.0",
+    "description": "Transforms every webpage into a chaotic design masterpiece.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["dist/graphics.js"],
+            "css": ["styles/graphics.css"]
+        }
+    ],
+    "permissions": ["activeTab"]
+}
