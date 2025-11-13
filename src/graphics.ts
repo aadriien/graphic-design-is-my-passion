@@ -1,8 +1,14 @@
 const cliparts: string[] = [
-    "https://upload.wikimedia.org/wikipedia/commons/7/70/Clipart_example.png",
-    "https://i.imgur.com/e1IneG3.gif",
-    "https://i.imgur.com/7W0t1vF.gif",
-    "https://i.imgur.com/3z4E5eK.gif"
+    "https://i.imgur.com/QQQobLg_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+    "https://i.imgur.com/mkN2MZb_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+    "https://i.imgur.com/tMuQoMA_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+    "https://i.imgur.com/YpmxRS1_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+    "https://i.imgur.com/WPPyhcI.webp?tb",
+    "https://i.imgur.com/uzQCqRP.webp?tb",
+    "https://i.imgur.com/DwERWGS.webp?tb",
+    "https://i.imgur.com/uF5NjY3.webp?tb",
+    "https://i.imgur.com/yojdB8K.webp?tb",
+
 ];
 
 function addCliparts(count: number = 10): void {
