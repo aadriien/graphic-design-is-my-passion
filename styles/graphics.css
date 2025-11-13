@@ -11,6 +11,17 @@ body {
     100% { background-position: 100% 50%; }
 }
 
+@keyframes spinText {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(720deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.spin-animation {
+    display: inline-block;
+    animation: spinText 1s ease-in-out;
+}
+
 h1, h2, h3 {
     font-size: 400% !important;
     transform: rotate(-3deg);
