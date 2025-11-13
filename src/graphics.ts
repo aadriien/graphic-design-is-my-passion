@@ -42,5 +42,20 @@ function randomizeHeadings(): void {
     });
 }
 
+function followCursor(): void {
+    document.addEventListener("mousemove", e => {
+        const heart = document.createElement("div");
+        heart.textContent = "💖";
+        heart.style.position = "fixed";
+        heart.style.top = `${e.clientY}px`;
+        heart.style.left = `${e.clientX}px`;
+        heart.style.zIndex = "999999";
+        heart.style.pointerEvents = "none";
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 1000);
+    });
+}
+
 addCliparts();
 randomizeHeadings();
+followCursor();
