@@ -37,7 +37,9 @@ function randomizeHeadings(): void {
         "Believe in Yourself",
         "Dream Big, Use Gradients",
         "Comic Sans 4-Ever",
-        "There's No I in Team"
+        "There's No I in Team",
+        "I <3 Computer",
+        "Nature is Healing",
     ];
     
     headings.forEach(h => {
