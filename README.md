@@ -13,7 +13,7 @@ So many fantastic creations came out of Terrible Ideas Day (including a few othe
 
 🧑‍💻 Recurse Center homepage   |   🪩 My personal website 
 :-------------------------:|:-------------------------:
-![Screenshot of RC homepage](./demos/recurse.png)  |  ![Gif of personal site](./demos/helloadrien.gif) 
+<img src="./demos/recurse.png" height="300"> | <img src="./demos/helloadrien.gif" height="300">
 
 
 ## Features
