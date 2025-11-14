@@ -9,7 +9,7 @@ This toy project was made during **Terrible Ideas Day at [the Recurse Center](ht
 So many fantastic creations came out of Terrible Ideas Day (including a few other browser extensions!), and I sincerely hope that this mindset of silly experimentation continues to inspire folks at RC and beyond! 
 
 
-## Examples
+## Examples / Demos
 
 🧑‍💻 Recurse Center homepage   |   🪩 My personal website 
 :-------------------------:|:-------------------------:
@@ -42,7 +42,7 @@ So many fantastic creations came out of Terrible Ideas Day (including a few othe
 
 ## Getting Started
 
-*Note that the steps below assume Node.js (+ npm) is already installed*
+*Note that the steps below assume Node.js (+ npm) is already installed.*
 
 ### Assembling materials:
 
