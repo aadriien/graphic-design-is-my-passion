@@ -9,6 +9,13 @@ This toy project was made during **Terrible Ideas Day at [the Recurse Center](ht
 So many fantastic creations came out of Terrible Ideas Day (including a few other browser extensions!), and I sincerely hope that this mindset of silly experimentation continues to inspire folks at RC and beyond! 
 
 
+## Examples
+
+🧑‍💻 Recurse Center homepage   |   🪩 My personal website 
+:-------------------------:|:-------------------------:
+![Screenshot of RC homepage](./demos/recurse.png)  |  ![Gif of personal site](./demos/helloadrien.gif) 
+
+
 ## Features
 
 - High-contrast visual styling
