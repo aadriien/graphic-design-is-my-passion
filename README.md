@@ -37,7 +37,9 @@ Additional features in the works!
     - `package.json` for dev env / setup / dependencies
 
 
-## Getting Started
+## Instructions
+
+### Preparing the code:
 
 **Clone** the repo:
 ```
@@ -52,8 +54,16 @@ Install **dependencies**:
 npm install
 ```
 
-**Build** extension:
+**Build** the extension:
 ```
 npm run build
 ```
+
+### Activating in browser:
+
+1. Open [`chrome://extensions/`](chrome://extensions/)
+2. Enable `Developer mode` (toggle)
+3. Click `Load unpacked`
+4. Select `dist/` folder
+
 
