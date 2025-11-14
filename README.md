@@ -9,18 +9,14 @@ This toy project was made during **Terrible Ideas Day at [the Recurse Center](ht
 So many fantastic creations came out of Terrible Ideas Day (including a few other browser extensions!), and I sincerely hope that this mindset of silly experimentation continues to inspire folks at RC and beyond! 
 
 
-## How It Works
-
-A Debian setup at the hub makes this possible by allowing in-person Recursers to **launch a couches bridge session**—or, better phrased, open the couch portal! Meanwhile, a Zulip bot notifies all Recursers of the event and shares the corresponding Zoom link so that they can join virtually. 
-
-Recursers can also **interact with the Zulip bot** by sending it a DM, or otherwise tagging it in a topic, with a request for the bridge to be opened. Tagging can be done from any public Zulip stream. 
-
-The bot checks the status of the bridge to reduce noise, and if it's not already open, the bot will **send a notification** to Recursers who are at the hub in person, forwarding the request.
-
-
 ## Features
 
-Additional features in the works! 
+- High-contrast visual styling
+- Playful images and energetic gifs
+- Randomized headings with fun messages
+- Zesty emoji trail following mouse movement
+- Text evasion when cursor approaches
+- Dizzying rotation on spin button click
 
 
 ## Tools / Tech
@@ -37,9 +33,11 @@ Additional features in the works!
     - `package.json` for dev env / setup / dependencies
 
 
-## Instructions
+## Getting Started
 
-### Preparing the code:
+*Note that the steps below assume Node.js (+ npm) is already installed*
+
+### Assembling materials:
 
 **Clone** the repo:
 ```
@@ -61,7 +59,7 @@ npm run build
 
 ### Activating in browser:
 
-1. Open [`chrome://extensions/`](chrome://extensions/)
+1. Open `chrome://extensions/`
 2. Enable `Developer mode` (toggle)
 3. Click `Load unpacked`
 4. Select `dist/` folder
